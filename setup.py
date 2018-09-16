@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 
 from setuptools import setup
@@ -8,12 +9,14 @@ def read(fname):
 
 
 setup(
-    name='Flask-Bootstrap',
-    version='4.0.0-beta.3.dev1',
-    url='http://github.com/mbr/flask-bootstrap',
+    name='flask-bootstrap-4-alpha',
+    version='4.0.0-beta.3.dev2',
+    url='https://github.com/NyanKiyoshi/flask-bootstrap-4-alpha',
     license='BSD',
     author='Marc Brinkmann',
     author_email='git@marcbrinkmann.de',
+    maintainer='NyanKiyoshi',
+    maintainer_email='hello@vanille.bid',
     description='An extension that includes Bootstrap in your '
     'project, without any boilerplate code.',
     long_description=read('README.rst'),
